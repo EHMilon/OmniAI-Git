@@ -22,7 +22,7 @@
 
 ## Overview
 
-OmniAI is a comprehensive Flutter application designed to be your central hub for various Artificial Intelligence functionalities. This open-source project aims to provide a seamless and integrated experience for interacting with different AI services and tools, all within a single, intuitive application.
+OmniAI is a comprehensive Flutter application designed to be your central hub for various Artificial Intelligence functionalities. This project aims to provide a seamless and integrated experience for interacting with different AI services and tools, all within a single, intuitive application.
 
 With OmniAI, you can access popular AI platforms like ChatGPT, Claude, Google Gemini, Perplexity, and many more through a unified interface. The app features a beautiful Material Design 3 interface with glassmorphism effects, making it both visually appealing and highly functional.
 
