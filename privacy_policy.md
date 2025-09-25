@@ -1,6 +1,6 @@
 # Privacy Policy for OmniAI
 
-**Last Updated: August 21, 2025**
+**Last Updated: September 26, 2025**
 
 ## Our Commitment to Your Privacy
 
@@ -36,6 +36,8 @@ To provide a rich web experience, our Android application requests a limited set
 *   **`MODIFY_AUDIO_SETTINGS`**: This permission allows the app to adjust audio settings to provide a better experience for media playback or calls initiated by the website.
 *   **`READ_MEDIA_IMAGES`, `READ_MEDIA_VIDEO`, `READ_MEDIA_AUDIO`**: These permissions allow you to upload your own images, videos, and audio files to the websites you visit. The app only helps you select a file when a website requests it; we do not see or store the files you choose.
 *   **`READ_EXTERNAL_STORAGE` (for older Android versions)**: On older versions of Android, this permission is required to access files from your device's storage for uploading.
+*   **`WRITE_EXTERNAL_STORAGE`**: This permission is required to download AI-generated images, videos, and other file types to your device's external storage.
+*   **`MANAGE_EXTERNAL_STORAGE`**: This permission allows the app to manage files in your device's external storage, enabling the download and organization of AI-generated content.
 *   **`WAKE_LOCK`**: This permission is used to prevent the screen from turning off during activities like video playback within the web view.
 *   **`VIBRATE`**: This permission is used to provide haptic feedback for notifications or actions initiated by the website.
 
