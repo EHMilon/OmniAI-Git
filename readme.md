@@ -26,6 +26,14 @@ OmniAI is a comprehensive Flutter application designed to be your central hub fo
 
 With OmniAI, you can access popular AI platforms like ChatGPT, Claude, Google Gemini, Perplexity, and many more through a unified interface. The app features a beautiful Material Design 3 interface with glassmorphism effects, making it both visually appealing and highly functional.
 
+<br>
+<div align="center">
+  <a href="https://play.google.com/store/apps/details?id=com.ai.omniai">
+    <img src="icons/GetItOnGooglePlay_Badge_Web_color_Bangla.png" alt="Get it on Google Play">
+  </a>
+</div>
+<br>
+
 ## Screenshots
 
 <p align="center">
