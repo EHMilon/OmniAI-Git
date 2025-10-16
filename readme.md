@@ -29,7 +29,7 @@ With OmniAI, you can access popular AI platforms like ChatGPT, Claude, Google Ge
 <br>
 <div align="center">
   <a href="https://play.google.com/store/apps/details?id=com.ai.omniai">
-    <img src="GetItOnGooglePlay_Badge_Web_color_Bangla.png" alt="Get it on Google Play">
+    <img src="GetItOnGooglePlay_Badge_Web_color_English.png" alt="Get it on Google Play">
   </a>
 </div>
 <br>
