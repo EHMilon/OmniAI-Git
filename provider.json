@@ -6,21 +6,18 @@
       "name": "ChatGPT",
       "webUrl": "https://chat.openai.com/",
       "logoUrl": "https://openai.com/content/images/2022/05/openai-avatar.png",
-      "color": "#4CAF50",
       "description": "OpenAI's conversational AI assistant"
     },
     {
       "name": "Google Gemini",
       "webUrl": "https://gemini.google.com/",
       "logoUrl": "https://ssl.gstatic.com/gemini/images/logo/google-gemini-logo-600x200.png",
-      "color": "#4285F4",
       "description": "Google's advanced AI model"
     },
     {
       "name": "Claude",
       "webUrl": "https://claude.ai/",
       "logoUrl": "https://claude.ai/images/claude-logo.png",
-      "color": "#9C27B0",
       "description": "Anthropic's AI assistant best for coding"
     }
   ]
