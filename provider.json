@@ -1,16 +1,8 @@
 {
-  "last_update": "2026-03-31T00:00:00Z",
+  "last_update": "2026-04-31T00:00:00Z",
   "disabled": false,
   "providers": [
-    {
-      "id": "lmarena",
-      "name": "LMArena",
-      "webUrl": "https://lmarena.ai/?mode=direct",
-      "logoUrl": "https://lmarena.ai/favicon.ico",
-      "iconName": "psychology",
-      "color": 4294940672,
-      "description": "Access All Premium Models for FREE."
-    },
+
     {
       "id": "chatgpt",
       "name": "ChatGPT",
@@ -19,6 +11,15 @@
       "iconName": "chat_bubble_outline",
       "color": 4283215696,
       "description": "OpenAI's conversational AI assistant"
+    },
+        {
+      "id": "lmarena",
+      "name": "LMArena",
+      "webUrl": "https://lmarena.ai/?mode=direct",
+      "logoUrl": "https://lmarena.ai/favicon.ico",
+      "iconName": "psychology",
+      "color": 4294940672,
+      "description": "Access All Premium Models for FREE."
     },
     {
       "id": "gemini",
