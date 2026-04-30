@@ -3,15 +3,6 @@
   "disabled": false,
   "providers": [
     {
-      "id": "huggingface_chat",
-      "name": "HuggingFace Chat",
-      "webUrl": "https://huggingface.co/chat/",
-      "logoUrl": "https://huggingface.co/front/assets/huggingface_logo.svg",
-      "iconName": "psychology",
-      "color": 4294940672,
-      "description": "Free AI chat with open-source models"
-    },
-    {
       "id": "lmarena",
       "name": "LMArena",
       "webUrl": "https://lmarena.ai/?mode=direct",
@@ -19,6 +10,15 @@
       "iconName": "psychology",
       "color": 4294940672,
       "description": "Access All Premium Models for FREE."
+    },
+    {
+      "id": "huggingface_chat",
+      "name": "HuggingFace Chat",
+      "webUrl": "https://huggingface.co/chat/",
+      "logoUrl": "https://huggingface.co/front/assets/huggingface_logo.svg",
+      "iconName": "psychology",
+      "color": 4294940672,
+      "description": "Free AI chat with open-source models"
     },
     {
       "id": "chatgpt",
@@ -56,7 +56,15 @@
       "color": 4285141768,
       "description": "xAI's conversational AI"
     },
-
+    {
+      "id": "claude",
+      "name": "Claude",
+      "webUrl": "https://claude.ai/",
+      "logoUrl": "https://claude.ai/images/claude-logo.png",
+      "iconName": "psychology",
+      "color": 4286141768,
+      "description": "Anthropic's AI assistant best for coding"
+    },
     {
       "id": "copilot",
       "name": "Microsoft Copilot",
@@ -74,15 +82,6 @@
       "iconName": "search",
       "color": 4283215696,
       "description": "AI-powered search and research"
-    },
-    {
-      "id": "claude",
-      "name": "Claude",
-      "webUrl": "https://claude.ai/",
-      "logoUrl": "https://claude.ai/images/claude-logo.png",
-      "iconName": "psychology",
-      "color": 4286141768,
-      "description": "Anthropic's AI assistant best for coding"
     },
     {
       "id": "kimi",
@@ -137,6 +136,15 @@
       "iconName": "chat",
       "color": 4292668415,
       "description": "Minimax AI's chat service"
+    },
+    {
+      "id": "google_ai_studio",
+      "name": "Google AI Studio",
+      "webUrl": "https://aistudio.google.com/prompts/new_chat",
+      "logoUrl": "https://aistudio.google.com/favicon.ico",
+      "iconName": "auto_awesome",
+      "color": 4280391411,
+      "description": "Google's AI Studio for prompts and models"
     },
     {
       "id": "poe",
