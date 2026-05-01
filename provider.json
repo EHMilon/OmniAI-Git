@@ -21,15 +21,6 @@
       "description": "Free AI chat with open-source models"
     },
     {
-      "id": "chatgpt",
-      "name": "ChatGPT",
-      "webUrl": "https://chat.openai.com/",
-      "logoUrl": "https://openai.com/content/images/2022/05/openai-avatar.png",
-      "iconName": "chat_bubble_outline",
-      "color": 4283215696,
-      "description": "OpenAI's conversational AI assistant"
-    },
-    {
       "id": "gemini",
       "name": "Google Gemini",
       "webUrl": "https://gemini.google.com/",
