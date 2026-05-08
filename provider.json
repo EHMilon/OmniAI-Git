@@ -9,7 +9,7 @@
       "logoUrl": "https://duckduckgo.com/assets/logo_homepage.normal.v108.svg",
       "iconName": "psychology",
       "color": 4294940672,
-      "description": "DuckDuckGo\'s Free & Privacy focused AI Chat"
+      "description": "DuckDuckGo's Free & Privacy focused AI Chat"
     },
     {
       "id": "lmarena",
@@ -308,7 +308,6 @@
       "iconName": "slideshow",
       "color": 4286141768,
       "description": "AI-powered presentation and document creator"
-    },
-
+    }
   ]
 }
