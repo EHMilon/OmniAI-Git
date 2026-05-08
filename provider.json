@@ -2,6 +2,15 @@
   "last_update": "2026-04-30T00:00:00Z",
   "disabled": false,
   "providers": [
+   {
+      "id": "duckai",
+      "name": "Duck AI",
+      "webUrl": "https://duck.ai/chat?ia=chat",
+      "logoUrl": "https://duckduckgo.com/assets/logo_homepage.normal.v108.svg",
+      "iconName": "psychology",
+      "color": 4294940672,
+      "description": "DuckDuckGo\'s Free & Privacy focused AI Chat"
+    },
     {
       "id": "lmarena",
       "name": "LMArena",
@@ -39,15 +48,6 @@
       "description": "Google's advanced AI model"
     },
     {
-      "id": "deepseek",
-      "name": "DeepSeek",
-      "webUrl": "https://chat.deepseek.com/",
-      "logoUrl": "https://chat.deepseek.com/favicon.ico",
-      "iconName": "code",
-      "color": 4283215696,
-      "description": "DeepSeek's coding and chat AI"
-    },
-    {
       "id": "grok",
       "name": "Grok",
       "webUrl": "https://grok.com/",
@@ -55,6 +55,15 @@
       "iconName": "rocket_launch",
       "color": 4285141768,
       "description": "xAI's conversational AI"
+    },
+    {
+      "id": "deepseek",
+      "name": "DeepSeek",
+      "webUrl": "https://chat.deepseek.com/",
+      "logoUrl": "https://chat.deepseek.com/favicon.ico",
+      "iconName": "code",
+      "color": 4283215696,
+      "description": "DeepSeek's coding and chat AI"
     },
     {
       "id": "claude",
@@ -147,6 +156,15 @@
       "description": "Google's AI Studio for prompts and models"
     },
     {
+      "id": "consensus",
+      "name": "Consensus",
+      "webUrl": "https://consensus.app/",
+      "logoUrl": "https://consensus.app/favicon.ico",
+      "iconName": "science",
+      "color": 4283215696,
+      "description": "AI search engine for research papers"
+    },
+    {
       "id": "poe",
       "name": "Poe",
       "webUrl": "https://poe.com/",
@@ -173,6 +191,15 @@
       "color": 4280391411,
       "description": "Access any AI models through one interface"
     },
+       {
+      "id": "lobehub",
+      "name": "LobeHub",
+      "webUrl": "https://app.lobehub.com/",
+      "logoUrl": "https://app.lobehub.com/favicon.ico",
+      "iconName": "hub",
+      "color": 4280391411,
+      "description": "AI agents and workflow automation"
+    },
     {
       "id": "chatgptfree",
       "name": "ChatGPT Free",
@@ -182,7 +209,7 @@
       "color": 4283215696,
       "description": "Free access to ChatGPT"
     },
-        {
+    {
       "id": "designarena",
       "name": "DesignArena AI",
       "webUrl": "https://www.designarena.ai/",
@@ -210,24 +237,6 @@
       "description": "Chatbot AI"
     },
     {
-      "id": "hix",
-      "name": "Hix Chatbot",
-      "webUrl": "https://hix.ai/hixchatbot",
-      "logoUrl": "https://hix.ai/favicon.ico",
-      "iconName": "assistant",
-      "color": 4286141768,
-      "description": "Hix.ai's chatbot"
-    },
-    {
-      "id": "pi",
-      "name": "Pi.ai",
-      "webUrl": "https://pi.ai/",
-      "logoUrl": "https://pi.ai/favicon.ico",
-      "iconName": "assistant",
-      "color": 4280391411,
-      "description": "Your personal AI"
-    },
-    {
       "id": "gening",
       "name": "Gening AI",
       "webUrl": "https://www.gening.ai/free-ai-chat-online",
@@ -245,15 +254,7 @@
       "color": 4283215696,
       "description": "DeepAI's conversational AI"
     },
-    {
-      "id": "lobehub",
-      "name": "LobeHub",
-      "webUrl": "https://app.lobehub.com/",
-      "logoUrl": "https://app.lobehub.com/favicon.ico",
-      "iconName": "hub",
-      "color": 4280391411,
-      "description": "AI agents and workflow automation"
-    },
+ 
     {
       "id": "stablediffusion",
       "name": "StableDifffusion",
@@ -275,20 +276,11 @@
     {
       "id": "blackbox",
       "name": "Blackbox AI",
-      "webUrl": "https://www.blackbox.ai/",
+      "webUrl": "https://app.blackbox.ai/",
       "logoUrl": "https://www.google.com/s2/favicons?sz=64&domain=www.blackbox.ai",
       "iconName": "code",
       "color": 4287535104,
       "description": "AI powerd coding assistant"
-    },
-    {
-      "id": "zzzcode",
-      "name": "ZZZCode AI",
-      "webUrl": "https://zzzcode.ai/",
-      "logoUrl": "https://zzzcode.ai/favicon.ico",
-      "iconName": "code",
-      "color": 4280391411,
-      "description": "AI for coding"
     },
     {
       "id": "you",
@@ -309,42 +301,6 @@
       "description": "Galaxy.AI's conversational AI"
     },
     {
-      "id": "bigagi",
-      "name": "Big AGI",
-      "webUrl": "https://get.big-agi.com/",
-      "logoUrl": "https://www.google.com/s2/favicons?sz=64&domain=get.big-agi.com",
-      "iconName": "psychology",
-      "color": 4289544547,
-      "description": "Advanced General Intelligence platform"
-    },
-    {
-      "id": "aichatsnet",
-      "name": "AIChats Net",
-      "webUrl": "https://ai-chats.net/chat",
-      "logoUrl": "https://ai-chats.net/favicon.ico",
-      "iconName": "chat_bubble_outline",
-      "color": 4294198070,
-      "description": "AI Chat platform"
-    },
-    {
-      "id": "notebooklm",
-      "name": "NotebookLM",
-      "webUrl": "https://notebooklm.google.com/",
-      "logoUrl": "https://notebooklm.google.com/favicon.ico",
-      "iconName": "book",
-      "color": 4286242550,
-      "description": "Google's research and writing assistant"
-    },
-    {
-      "id": "consensus",
-      "name": "Consensus",
-      "webUrl": "https://consensus.app/",
-      "logoUrl": "https://consensus.app/favicon.ico",
-      "iconName": "science",
-      "color": 4283215696,
-      "description": "AI search engine for research papers"
-    },
-    {
       "id": "gamma",
       "name": "Gamma",
       "webUrl": "https://gamma.app/",
@@ -353,14 +309,6 @@
       "color": 4286141768,
       "description": "AI-powered presentation and document creator"
     },
-    {
-      "id": "notion",
-      "name": "Notion",
-      "webUrl": "https://www.notion.so/",
-      "logoUrl": "https://www.notion.so/favicon.ico",
-      "iconName": "article",
-      "color": 4287535104,
-      "description": "All-in-one workspace for notes, tasks, and wikis"
-    }
+
   ]
 }
