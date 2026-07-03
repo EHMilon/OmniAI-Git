@@ -108,17 +108,24 @@ Local data storage, cache management, and full control over your data. No unnece
 ## Screenshots
 
 <div align="center">
-  <img src="assets/1.png" alt="Home Screen" width="220">
-  <img src="assets/2.png" alt="Settings" width="220">
-  <img src="assets/9.png" alt="AI Chat" width="220">
-  <img src="assets/ai_chat.png" alt="Chat Interface" width="220">
+  <img src="assets/1.png" alt="Home Screen" height="400">
+  <img src="assets/2.png" alt="Settings" height="400">
+  <img src="assets/ai_chat.png" alt="AI Chat" height="400">
 </div>
 
+<br>
+
 <div align="center">
-  <img src="assets/discover.jpg" alt="Discover Screen" width="220">
-  <img src="assets/native_like_ui_&&_mulitple_ai.jpg" alt="Multiple AI Platforms" width="220">
-  <img src="assets/floating_window.png" alt="Floating Window" width="220">
-  <img src="assets/canvas.png" alt="Canvas" width="220">
+  <img src="assets/9.png" alt="Providers" height="400">
+  <img src="assets/discover.jpg" alt="Discover AI Tools" height="400">
+  <img src="assets/native_like_ui_&&_mulitple_ai.jpg" alt="Multiple AI Platforms" height="400">
+</div>
+
+<br>
+
+<div align="center">
+  <img src="assets/floating_window.png" alt="Floating Window" height="400">
+  <img src="assets/canvas.png" alt="Canvas Feature" width="600">
 </div>
 
 <br>
