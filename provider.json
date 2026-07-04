@@ -1,5 +1,5 @@
 {
-  "last_update": "2026-05-07T00:00:00Z",
+  "last_update": "2026-07-03T00:00:00Z",
   "disabled": false,
   "providers": [
    {
@@ -10,25 +10,7 @@
       "iconName": "psychology",
       "color": 4294940672,
       "description": "DuckDuckGo's Free & Privacy focused AI Chat"
-    },
-    {
-      "id": "lmarena",
-      "name": "LMArena",
-      "webUrl": "https://lmarena.ai/?mode=direct",
-      "logoUrl": "https://lmarena.ai/favicon.ico",
-      "iconName": "psychology",
-      "color": 4294940672,
-      "description": "Access All Premium Models for FREE."
-    },
-    {
-      "id": "huggingface_chat",
-      "name": "HuggingFace Chat",
-      "webUrl": "https://huggingface.co/chat/",
-      "logoUrl": "https://huggingface.co/front/assets/huggingface_logo.svg",
-      "iconName": "psychology",
-      "color": 4294940672,
-      "description": "Free AI chat with open-source models"
-    },
+    },  
     {
       "id": "chatgpt",
       "name": "ChatGPT",
@@ -57,15 +39,33 @@
       "description": "xAI's conversational AI"
     },
     {
-      "id": "deepseek",
-      "name": "DeepSeek",
-      "webUrl": "https://chat.deepseek.com/",
-      "logoUrl": "https://chat.deepseek.com/favicon.ico",
-      "iconName": "code",
+      "id": "higgsfield",
+      "name": "Higgsfield",
+      "webUrl": "https://higgsfield.ai/",
+      "logoUrl": "https://www.google.com/s2/favicons?sz=64&domain=higgsfield.ai",
+      "iconName": "movie_creation",
       "color": 4283215696,
-      "description": "DeepSeek's coding and chat AI"
+      "description": "AI-native creative suite for video, image, and media generation"
     },
     {
+      "id": "huggingface_chat",
+      "name": "HuggingFace Chat",
+      "webUrl": "https://huggingface.co/chat/",
+      "logoUrl": "https://huggingface.co/front/assets/huggingface_logo.svg",
+      "iconName": "psychology",
+      "color": 4294940672,
+      "description": "Free AI chat with open-source models"
+    },
+    {
+      "id": "meta_ai",
+      "name": "Meta AI",
+      "webUrl": "https://www.meta.ai/",
+      "logoUrl": "https://www.meta.ai/favicon.ico",
+      "iconName": "auto_awesome",
+      "color": 4280391411,
+      "description": "Meta's AI assistant powered by Llama models"
+    },
+      {
       "id": "claude",
       "name": "Claude",
       "webUrl": "https://claude.ai/",
@@ -78,11 +78,21 @@
       "id": "copilot",
       "name": "Microsoft Copilot",
       "webUrl": "https://copilot.microsoft.com/",
-      "logoUrl": "https://www.microsoft.com/en-us/microsoft-copilot/assets/images/m-logo-small.svg",
+      "logoUrl": "https://copilot.microsoft.com/favicon.ico",
       "iconName": "code",
       "color": 4294940672,
       "description": "Microsoft's AI-powered assistant"
     },
+    {
+      "id": "deepseek",
+      "name": "DeepSeek",
+      "webUrl": "https://chat.deepseek.com/",
+      "logoUrl": "https://chat.deepseek.com/favicon.ico",
+      "iconName": "code",
+      "color": 4283215696,
+      "description": "DeepSeek's coding and chat AI"
+    },
+  
     {
       "id": "perplexity",
       "name": "Perplexity",
@@ -111,6 +121,24 @@
       "description": "Alibaba Cloud's AI assistant"
     },
     {
+      "id": "minimax",
+      "name": "Minimax AI",
+      "webUrl": "https://chat.minimax.io/",
+      "logoUrl": "https://chat.minimax.io/favicon.ico",
+      "iconName": "chat",
+      "color": 4292668415,
+      "description": "Minimax AI's chat service"
+    },
+    {
+      "id": "zai",
+      "name": "Z.AI",
+      "webUrl": "https://chat.z.ai/",
+      "logoUrl": "https://chat.z.ai/favicon.ico",
+      "iconName": "flash_on",
+      "color": 4294934783,
+      "description": "Z.ai's conversational AI"
+    },
+    {
       "id": "mistral",
       "name": "Mistral AI",
       "webUrl": "https://chat.mistral.ai/chat?q=",
@@ -128,24 +156,7 @@
       "color": 4294928926,
       "description": "Cohere's powerful conversational AI"
     },
-    {
-      "id": "zai",
-      "name": "Z.AI",
-      "webUrl": "https://chat.z.ai/",
-      "logoUrl": "https://chat.z.ai/favicon.ico",
-      "iconName": "flash_on",
-      "color": 4294934783,
-      "description": "Z.ai's conversational AI"
-    },
-    {
-      "id": "minimax",
-      "name": "Minimax AI",
-      "webUrl": "https://chat.minimax.io/",
-      "logoUrl": "https://chat.minimax.io/favicon.ico",
-      "iconName": "chat",
-      "color": 4292668415,
-      "description": "Minimax AI's chat service"
-    },
+
     {
       "id": "google_ai_studio",
       "name": "Google AI Studio",
@@ -156,6 +167,15 @@
       "description": "Google's AI Studio for prompts and models"
     },
     {
+      "id": "manus",
+      "name": "Manus",
+      "webUrl": "https://manus.im/",
+      "logoUrl": "https://www.google.com/s2/favicons?sz=64&domain=manus.im",
+      "iconName": "smart_toy",
+      "color": 4283215696,
+      "description": "Hands-on AI agent for tasks, slides, websites, and more"
+    },
+    {
       "id": "consensus",
       "name": "Consensus",
       "webUrl": "https://consensus.app/",
@@ -163,15 +183,6 @@
       "iconName": "science",
       "color": 4283215696,
       "description": "AI search engine for research papers"
-    },
-    {
-      "id": "poe",
-      "name": "Poe",
-      "webUrl": "https://poe.com/",
-      "logoUrl": "https://poe.com/favicon.ico",
-      "iconName": "forum",
-      "color": 4284447312,
-      "description": "Chat with muliple AI models"
     },
     {
       "id": "together",
@@ -191,24 +202,25 @@
       "color": 4280391411,
       "description": "Access any AI models through one interface"
     },
-       {
+    {
+      "id": "lmarena",
+      "name": "LMArena",
+      "webUrl": "https://lmarena.ai/?mode=direct",
+      "logoUrl": "https://lmarena.ai/favicon.ico",
+      "iconName": "psychology",
+      "color": 4294940672,
+      "description": "Access All Premium Models for FREE."
+    },
+    {
       "id": "lobehub",
       "name": "LobeHub",
       "webUrl": "https://app.lobehub.com/",
-      "logoUrl": "https://app.lobehub.com/favicon.ico",
+      "logoUrl": "https://lobehub.com/_next/static/media/logo.3jiolfuenei0q.png",
       "iconName": "hub",
       "color": 4280391411,
       "description": "AI agents and workflow automation"
     },
-    {
-      "id": "chatgptfree",
-      "name": "ChatGPT Free",
-      "webUrl": "https://chatgptfree.ai/chat/",
-      "logoUrl": "https://chatgptfree.ai/favicon.ico",
-      "iconName": "chat_bubble_outline",
-      "color": 4283215696,
-      "description": "Free access to ChatGPT"
-    },
+
     {
       "id": "designarena",
       "name": "DesignArena AI",
@@ -237,15 +249,6 @@
       "description": "Chatbot AI"
     },
     {
-      "id": "gening",
-      "name": "Gening AI",
-      "webUrl": "https://www.gening.ai/free-ai-chat-online",
-      "logoUrl": "https://www.gening.ai/favicon.ico",
-      "iconName": "auto_awesome",
-      "color": 4283215696,
-      "description": "Free AI Chat Online"
-    },
-    {
       "id": "deepai",
       "name": "DeepAI Chat",
       "webUrl": "https://deepai.org/chat",
@@ -254,7 +257,6 @@
       "color": 4283215696,
       "description": "DeepAI's conversational AI"
     },
- 
     {
       "id": "stablediffusion",
       "name": "StableDifffusion",
@@ -262,7 +264,7 @@
       "logoUrl": "https://stabledifffusion.com/favicon.ico",
       "iconName": "auto_awesome",
       "color": 4286141768,
-      "description": "AI image generator"
+      "description": "Create unlimited AI images for free"
     },
     {
       "id": "leonardo",
@@ -272,6 +274,15 @@
       "iconName": "auto_awesome",
       "color": 4284447312,
       "description": "AI image generation platform"
+    },
+        {
+      "id": "chatgptfree",
+      "name": "ChatGPT Free",
+      "webUrl": "https://chatgptfree.ai/chat/",
+      "logoUrl": "https://chatgptfree.ai/favicon.ico",
+      "iconName": "chat_bubble_outline",
+      "color": 4283215696,
+      "description": "Free access to ChatGPT"
     },
     {
       "id": "blackbox",
@@ -283,24 +294,6 @@
       "description": "AI powerd coding assistant"
     },
     {
-      "id": "you",
-      "name": "You AI",
-      "webUrl": "https://you.com/?chatMode=default",
-      "logoUrl": "https://www.google.com/s2/favicons?sz=64&domain=you.com",
-      "iconName": "search",
-      "color": 4282440832,
-      "description": "AI search engine"
-    },
-    {
-      "id": "galaxy",
-      "name": "Galaxy.AI Chat",
-      "webUrl": "https://chat.galaxy.ai/",
-      "logoUrl": "https://chat.galaxy.ai/favicon.ico",
-      "iconName": "chat",
-      "color": 4280391411,
-      "description": "Galaxy.AI's conversational AI"
-    },
-    {
       "id": "gamma",
       "name": "Gamma",
       "webUrl": "https://gamma.app/",
@@ -308,6 +301,6 @@
       "iconName": "slideshow",
       "color": 4286141768,
       "description": "AI-powered presentation and document creator"
-    }
+    }  
   ]
 }

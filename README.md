@@ -110,14 +110,16 @@ Local data storage, cache management, and full control over your data. No unnece
 <p align="center">
   <img src="assets/1.png" alt="Home Screen" width="200">
   <img src="assets/2.png" alt="Settings" width="200">
-  <img src="assets/ai_chat.png" alt="AI Chat" width="200">
-  <img src="assets/9.png" alt="Providers" width="200">
+  <img src="assets/floating_window.png" alt="Floating Window" width="200">
+
 </p>
 
 <p align="center">
   <img src="assets/discover.jpg" alt="Discover AI Tools" width="200">
+  <img src="assets/ai_chat.png" alt="AI Chat" width="200">
   <img src="assets/native_like_ui_&&_mulitple_ai.jpg" alt="Multiple AI Platforms" width="200">
-  <img src="assets/floating_window.png" alt="Floating Window" width="200">
+  <img src="assets/9.png" alt="Providers" width="200">
+
 </p>
 
 <br>
@@ -133,16 +135,12 @@ Local data storage, cache management, and full control over your data. No unnece
 | Forgetting what you learned | Built-in notebook & highlights |
 
 <br>
-
-## Supported Providers
-
-ChatGPT · Google Gemini · Claude (Anthropic) · DeepSeek · Perplexity · Microsoft Copilot · DuckDuckGo AI Chat · Qwen (Alibaba) · Grok (xAI) · Mistral AI · Kimi (Moonshot) · Together.ai · Open Router · Cohere Coral · Z AI · Poe · ChatGPT Free · Easemate AI · ChatbotAI · Hix Chatbot · Gening AI · DeepAI Chat · Stable Diffusion · Leonardo AI · Flat AI · Blackbox AI · ZZZCode AI · You Web Search · Google AI Studio · Galaxy AI Chat · Big AGI · Notion · NoteBook LM · Hugging Face · And many more
-
+<hr>
 <br>
 
 <div align="center">
   <p><strong>Download OmniAI today — free on Google Play.</strong></p>
-  <p>No account required. No hidden fees.</p>
+  <p>No account required.</p>
   <br>
   <a href="https://play.google.com/store/apps/details?id=com.ai.omniai">
     <img src="assets/GetItOnGooglePlay_Badge_Web_color_English.png" alt="Get it on Google Play" width="200">
