@@ -1,15 +1,16 @@
 {
-  "last_update": "2026-07-03T00:00:00Z",
+  "last_update": "2026-07-14T00:00:00Z",
   "disabled": false,
   "providers": [
-   {
+    {
       "id": "duckai",
       "name": "Duck AI",
       "webUrl": "https://duck.ai/chat?ia=chat",
       "logoUrl": "https://duckduckgo.com/assets/logo_homepage.normal.v108.svg",
       "iconName": "psychology",
-      "color": 4294940672,
-      "description": "DuckDuckGo's Free & Privacy focused AI Chat"
+      "description": "DuckDuckGo's Free & Privacy focused AI Chat",
+      "inputSelector": "textarea[name=\"user-prompt\"]",
+      "sendSelector": "button[aria-label=\"Ask\"]"
     },  
     {
       "id": "chatgpt",
@@ -17,8 +18,8 @@
       "webUrl": "https://chat.openai.com/",
       "logoUrl": "https://openai.com/content/images/2022/05/openai-avatar.png",
       "iconName": "chat_bubble_outline",
-      "color": 4283215696,
-      "description": "OpenAI's conversational AI assistant"
+      "description": "OpenAI's conversational AI assistant",
+      "sendSelector": "button[data-testid=\"send-button\"]"
     },
     {
       "id": "gemini",
@@ -26,8 +27,9 @@
       "webUrl": "https://gemini.google.com/",
       "logoUrl": "https://ssl.gstatic.com/gemini/images/logo/google-gemini-logo-600x200.png",
       "iconName": "auto_awesome",
-      "color": 4280391411,
-      "description": "Google's advanced AI model"
+      "description": "Google's advanced AI model",
+      "sendSelector": "button[aria-label=\"Send message\"]",
+      "cssToHide": [".get-app-banner, [data-test-id=\"get-app-banner\"] { display: none !important; }"]
     },
     {
       "id": "grok",
@@ -35,26 +37,18 @@
       "webUrl": "https://grok.com/",
       "logoUrl": "https://grok.com/favicon.ico",
       "iconName": "rocket_launch",
-      "color": 4285141768,
-      "description": "xAI's conversational AI"
+      "description": "xAI's conversational AI",
+      "cssToHide": ["div[class*=\"fixed\"][class*=\"top-0\"][class*=\"left-0\"][class*=\"right-0\"][class*=\"z-50\"] { display: none !important; }"],
+      "jsOnLoad": "(function(){var b=document.querySelector('button[aria-label=\"Close\"]');if(b)b.click();})();"
     },
     {
-      "id": "higgsfield",
-      "name": "Higgsfield",
-      "webUrl": "https://higgsfield.ai/",
-      "logoUrl": "https://www.google.com/s2/favicons?sz=64&domain=higgsfield.ai",
-      "iconName": "movie_creation",
-      "color": 4283215696,
-      "description": "AI-native creative suite for video, image, and media generation"
-    },
-    {
-      "id": "huggingface_chat",
-      "name": "HuggingFace Chat",
-      "webUrl": "https://huggingface.co/chat/",
-      "logoUrl": "https://huggingface.co/front/assets/huggingface_logo.svg",
+      "id": "claude",
+      "name": "Claude",
+      "webUrl": "https://claude.ai/",
+      "logoUrl": "https://claude.ai/images/claude-logo.png",
       "iconName": "psychology",
-      "color": 4294940672,
-      "description": "Free AI chat with open-source models"
+      "description": "Anthropic's AI assistant best for coding",
+      "cssToHide": ["div.mt-6:nth-child(2):has([class*=\"rounded-[\"]) { display: none !important; }"]
     },
     {
       "id": "meta_ai",
@@ -62,17 +56,7 @@
       "webUrl": "https://www.meta.ai/",
       "logoUrl": "https://www.meta.ai/favicon.ico",
       "iconName": "auto_awesome",
-      "color": 4280391411,
       "description": "Meta's AI assistant powered by Llama models"
-    },
-      {
-      "id": "claude",
-      "name": "Claude",
-      "webUrl": "https://claude.ai/",
-      "logoUrl": "https://claude.ai/images/claude-logo.png",
-      "iconName": "psychology",
-      "color": 4286141768,
-      "description": "Anthropic's AI assistant best for coding"
     },
     {
       "id": "copilot",
@@ -80,7 +64,6 @@
       "webUrl": "https://copilot.microsoft.com/",
       "logoUrl": "https://copilot.microsoft.com/favicon.ico",
       "iconName": "code",
-      "color": 4294940672,
       "description": "Microsoft's AI-powered assistant"
     },
     {
@@ -89,36 +72,17 @@
       "webUrl": "https://chat.deepseek.com/",
       "logoUrl": "https://chat.deepseek.com/favicon.ico",
       "iconName": "code",
-      "color": 4283215696,
-      "description": "DeepSeek's coding and chat AI"
-    },
-  
-    {
-      "id": "perplexity",
-      "name": "Perplexity",
-      "webUrl": "https://www.perplexity.ai/",
-      "logoUrl": "https://www.perplexity.ai/assets/perplex-favicon.svg",
-      "iconName": "search",
-      "color": 4283215696,
-      "description": "AI-powered search and research"
+      "description": "DeepSeek's coding and chat AI",
+      "sendSelector": ".ds-button--primary",
+      "cssToHide": [".ds-button--outlinedNeutral { display: none !important; }"]
     },
     {
-      "id": "kimi",
-      "name": "Kimi",
-      "webUrl": "https://www.kimi.com/",
-      "logoUrl": "https://www.kimi.com/assets/logo.png",
-      "iconName": "lightbulb_outline",
-      "color": 4289544547,
-      "description": "Moonshot AI's conversational AI assistant"
-    },
-    {
-      "id": "qwen",
-      "name": "Qwen",
-      "webUrl": "https://chat.qwen.ai/",
-      "logoUrl": "https://chat.qwen.ai/favicon.ico",
-      "iconName": "auto_awesome",
-      "color": 4293493792,
-      "description": "Alibaba Cloud's AI assistant"
+      "id": "huggingface_chat",
+      "name": "HuggingFace Chat",
+      "webUrl": "https://huggingface.co/chat/",
+      "logoUrl": "https://huggingface.co/front/assets/huggingface_logo.svg",
+      "iconName": "psychology",
+      "description": "Free AI chat with open-source models"
     },
     {
       "id": "minimax",
@@ -126,8 +90,36 @@
       "webUrl": "https://chat.minimax.io/",
       "logoUrl": "https://chat.minimax.io/favicon.ico",
       "iconName": "chat",
-      "color": 4292668415,
-      "description": "Minimax AI's chat service"
+      "description": "Minimax AI's chat service",
+      "cssToHide": ["button[class*=\"mavis-popover\"] { display: none !important; }"]
+    },
+    {
+      "id": "perplexity",
+      "name": "Perplexity",
+      "webUrl": "https://www.perplexity.ai/",
+      "logoUrl": "https://www.perplexity.ai/assets/perplex-favicon.svg",
+      "iconName": "search",
+      "description": "AI-powered search and research",
+      "cssToHide": [".app-download-overlay { display: none !important; }", "[class*=\"get-app\"] { display: none !important; }"],
+      "jsOnLoad": "(function(){var count=0;var iv=setInterval(function(){try{document.querySelectorAll('button').forEach(function(b){var t=b.textContent||'';if(t.indexOf('Open in App')!==-1)b.remove();});document.querySelectorAll('button[aria-label=\"Close\"]').forEach(function(b){if((b.innerHTML||'').indexOf('pplx-icon-x')===-1)return;for(var p=b.parentElement;p&&p.tagName!=='BODY';p=p.parentElement){if(p.classList.contains('fixed')&&p.classList.contains('inset-0')){p.remove();break;}}});}catch(e){}if(++count>30)clearInterval(iv);},1000);})();"
+    },
+    {
+      "id": "kimi",
+      "name": "Kimi",
+      "webUrl": "https://www.kimi.com/",
+      "logoUrl": "https://www.kimi.com/assets/logo.png",
+      "iconName": "lightbulb_outline",
+      "description": "Moonshot AI's conversational AI assistant",
+      "cssToHide": [".download-button { display: none !important; }"]
+    },
+    {
+      "id": "qwen",
+      "name": "Qwen",
+      "webUrl": "https://chat.qwen.ai/",
+      "logoUrl": "https://chat.qwen.ai/favicon.ico",
+      "iconName": "auto_awesome",
+      "description": "Alibaba Cloud's AI assistant",
+      "cssToHide": [".share-logo-content { display: none !important; }"]
     },
     {
       "id": "zai",
@@ -135,8 +127,7 @@
       "webUrl": "https://chat.z.ai/",
       "logoUrl": "https://chat.z.ai/favicon.ico",
       "iconName": "flash_on",
-      "color": 4294934783,
-      "description": "Z.ai's conversational AI"
+      "description": "GLM Powerful models from Z.AI"
     },
     {
       "id": "mistral",
@@ -144,7 +135,6 @@
       "webUrl": "https://chat.mistral.ai/chat?q=",
       "logoUrl": "https://chat.mistral.ai/favicon.ico",
       "iconName": "auto_awesome_outlined",
-      "color": 4285166078,
       "description": "Mistral AI's chat Assistant"
     },
     {
@@ -153,18 +143,16 @@
       "webUrl": "https://coral.cohere.com/",
       "logoUrl": "https://coral.cohere.com/favicon.ico",
       "iconName": "bubble_chart",
-      "color": 4294928926,
       "description": "Cohere's powerful conversational AI"
     },
-
     {
       "id": "google_ai_studio",
       "name": "Google AI Studio",
       "webUrl": "https://aistudio.google.com/prompts/new_chat",
       "logoUrl": "https://aistudio.google.com/favicon.ico",
       "iconName": "auto_awesome",
-      "color": 4280391411,
-      "description": "Google's AI Studio for prompts and models"
+      "description": "Google's AI Studio for prompts and models",
+      "sendMethod": "ctrl-enter"
     },
     {
       "id": "manus",
@@ -172,8 +160,8 @@
       "webUrl": "https://manus.im/",
       "logoUrl": "https://www.google.com/s2/favicons?sz=64&domain=manus.im",
       "iconName": "smart_toy",
-      "color": 4283215696,
-      "description": "Hands-on AI agent for tasks, slides, websites, and more"
+      "description": "Hands-on AI agent for tasks, slides, websites, and more",
+      "cssToHide": ["div[class*=\"z-[2]\"][class*=\"top-0\"][class*=\"w-full\"] { display: none !important; }"]
     },
     {
       "id": "consensus",
@@ -181,7 +169,6 @@
       "webUrl": "https://consensus.app/",
       "logoUrl": "https://consensus.app/favicon.ico",
       "iconName": "science",
-      "color": 4283215696,
       "description": "AI search engine for research papers"
     },
     {
@@ -190,7 +177,6 @@
       "webUrl": "https://chat.together.ai/",
       "logoUrl": "https://chat.together.ai/favicon.ico",
       "iconName": "psychology",
-      "color": 4284447312,
       "description": "Together.ai's OpenSource models"
     },
     {
@@ -199,7 +185,6 @@
       "webUrl": "https://openrouter.ai/chat",
       "logoUrl": "https://openrouter.ai/favicon.ico",
       "iconName": "auto_awesome",
-      "color": 4280391411,
       "description": "Access any AI models through one interface"
     },
     {
@@ -208,54 +193,24 @@
       "webUrl": "https://lmarena.ai/?mode=direct",
       "logoUrl": "https://lmarena.ai/favicon.ico",
       "iconName": "psychology",
-      "color": 4294940672,
-      "description": "Access All Premium Models for FREE."
+      "description": "Access All Premium Models for FREE.",
+      "sendSelector": "button[class*=\"interactive-cta-active\"]"
     },
     {
       "id": "lobehub",
       "name": "LobeHub",
       "webUrl": "https://app.lobehub.com/",
-      "logoUrl": "https://lobehub.com/_next/static/media/logo.3jiolfuenei0q.png",
+      "logoUrl": "",
       "iconName": "hub",
-      "color": 4280391411,
       "description": "AI agents and workflow automation"
     },
-
     {
-      "id": "designarena",
-      "name": "DesignArena AI",
-      "webUrl": "https://www.designarena.ai/",
-      "logoUrl": "https://www.designarena.ai/favicon.ico",
-      "iconName": "palette",
-      "color": 4286141768,
-      "description": "AI-powered design tools and chat"
-    },
-    {
-      "id": "easemate",
-      "name": "Easemate AI",
-      "webUrl": "https://www.easemate.ai/webapp/chat",
-      "logoUrl": "https://www.easemate.ai/favicon.ico",
-      "iconName": "chat",
-      "color": 4283215696,
-      "description": "Easemate AI Chat"
-    },
-    {
-      "id": "chatbotai",
-      "name": "ChatbotAI",
-      "webUrl": "https://chatbotai.com/",
-      "logoUrl": "https://chatbotai.com/favicon.ico",
-      "iconName": "assistant",
-      "color": 4286141768,
-      "description": "Chatbot AI"
-    },
-    {
-      "id": "deepai",
-      "name": "DeepAI Chat",
-      "webUrl": "https://deepai.org/chat",
-      "logoUrl": "https://deepai.org/favicon.ico",
-      "iconName": "chat",
-      "color": 4283215696,
-      "description": "DeepAI's conversational AI"
+      "id": "higgsfield",
+      "name": "Higgsfield",
+      "webUrl": "https://higgsfield.ai/",
+      "logoUrl": "https://www.google.com/s2/favicons?sz=64&domain=higgsfield.ai",
+      "iconName": "movie_creation",
+      "description": "AI-native creative suite for video, image, and media generation"
     },
     {
       "id": "stablediffusion",
@@ -263,7 +218,6 @@
       "webUrl": "https://stabledifffusion.com/",
       "logoUrl": "https://stabledifffusion.com/favicon.ico",
       "iconName": "auto_awesome",
-      "color": 4286141768,
       "description": "Create unlimited AI images for free"
     },
     {
@@ -272,26 +226,47 @@
       "webUrl": "https://app.leonardo.ai/",
       "logoUrl": "https://app.leonardo.ai/favicon.ico",
       "iconName": "auto_awesome",
-      "color": 4284447312,
       "description": "AI image generation platform"
     },
-        {
+    {
+      "id": "designarena",
+      "name": "DesignArena AI",
+      "webUrl": "https://www.designarena.ai/",
+      "logoUrl": "https://www.designarena.ai/favicon.ico",
+      "iconName": "palette",
+      "description": "AI-powered design tools and chat"
+    },
+    {
+      "id": "easemate",
+      "name": "Easemate AI",
+      "webUrl": "https://www.easemate.ai/webapp/chat",
+      "logoUrl": "https://www.easemate.ai/favicon.ico",
+      "iconName": "chat",
+      "description": "Easemate AI Chat"
+    },
+    {
+      "id": "chatbotai",
+      "name": "ChatbotAI",
+      "webUrl": "https://chatbotai.com/",
+      "logoUrl": "https://chatbotai.com/favicon.ico",
+      "iconName": "assistant",
+      "description": "Chatbot AI"
+    },
+    {
+      "id": "deepai",
+      "name": "DeepAI Chat",
+      "webUrl": "https://deepai.org/chat",
+      "logoUrl": "https://deepai.org/favicon.ico",
+      "iconName": "chat",
+      "description": "DeepAI's conversational AI"
+    },
+    {
       "id": "chatgptfree",
       "name": "ChatGPT Free",
       "webUrl": "https://chatgptfree.ai/chat/",
       "logoUrl": "https://chatgptfree.ai/favicon.ico",
       "iconName": "chat_bubble_outline",
-      "color": 4283215696,
       "description": "Free access to ChatGPT"
-    },
-    {
-      "id": "blackbox",
-      "name": "Blackbox AI",
-      "webUrl": "https://app.blackbox.ai/",
-      "logoUrl": "https://www.google.com/s2/favicons?sz=64&domain=www.blackbox.ai",
-      "iconName": "code",
-      "color": 4287535104,
-      "description": "AI powerd coding assistant"
     },
     {
       "id": "gamma",
@@ -299,7 +274,6 @@
       "webUrl": "https://gamma.app/",
       "logoUrl": "https://gamma.app/favicon.ico",
       "iconName": "slideshow",
-      "color": 4286141768,
       "description": "AI-powered presentation and document creator"
     }  
   ]
