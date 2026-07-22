@@ -1,5 +1,5 @@
 {
-  "last_update": "2026-07-14T00:00:00Z",
+  "last_update": "2026-07-22T00:00:00Z",
   "disabled": false,
   "providers": [
     {
@@ -11,7 +11,7 @@
       "description": "DuckDuckGo's Free & Privacy focused AI Chat",
       "inputSelector": "textarea[name=\"user-prompt\"]",
       "sendSelector": "button[aria-label=\"Ask\"]"
-    },  
+    },
     {
       "id": "chatgpt",
       "name": "ChatGPT",
@@ -42,6 +42,22 @@
       "jsOnLoad": "(function(){var b=document.querySelector('button[aria-label=\"Close\"]');if(b)b.click();})();"
     },
     {
+      "id": "huggingface_chat",
+      "name": "HuggingFace Chat",
+      "webUrl": "https://huggingface.co/chat/",
+      "logoUrl": "https://huggingface.co/front/assets/huggingface_logo.svg",
+      "iconName": "psychology",
+      "description": "Free AI chat with open-source models"
+    },
+    {
+      "id": "lumo",
+      "name": "Proton Lumo",
+      "webUrl": "https://lumo.proton.me",
+      "logoUrl": "https://lumo.proton.me/favicon.ico",
+      "iconName": "lock_outline",
+      "description": "Proton's privacy-focused AI assistant"
+    },
+    {
       "id": "claude",
       "name": "Claude",
       "webUrl": "https://claude.ai/",
@@ -49,14 +65,6 @@
       "iconName": "psychology",
       "description": "Anthropic's AI assistant best for coding",
       "cssToHide": ["div.mt-6:nth-child(2):has([class*=\"rounded-[\"]) { display: none !important; }"]
-    },
-    {
-      "id": "meta_ai",
-      "name": "Meta AI",
-      "webUrl": "https://www.meta.ai/",
-      "logoUrl": "https://www.meta.ai/favicon.ico",
-      "iconName": "auto_awesome",
-      "description": "Meta's AI assistant powered by Llama models"
     },
     {
       "id": "copilot",
@@ -77,33 +85,6 @@
       "cssToHide": [".ds-button--outlinedNeutral { display: none !important; }"]
     },
     {
-      "id": "huggingface_chat",
-      "name": "HuggingFace Chat",
-      "webUrl": "https://huggingface.co/chat/",
-      "logoUrl": "https://huggingface.co/front/assets/huggingface_logo.svg",
-      "iconName": "psychology",
-      "description": "Free AI chat with open-source models"
-    },
-    {
-      "id": "minimax",
-      "name": "Minimax AI",
-      "webUrl": "https://chat.minimax.io/",
-      "logoUrl": "https://chat.minimax.io/favicon.ico",
-      "iconName": "chat",
-      "description": "Minimax AI's chat service",
-      "cssToHide": ["button[class*=\"mavis-popover\"] { display: none !important; }"]
-    },
-    {
-      "id": "perplexity",
-      "name": "Perplexity",
-      "webUrl": "https://www.perplexity.ai/",
-      "logoUrl": "https://www.perplexity.ai/assets/perplex-favicon.svg",
-      "iconName": "search",
-      "description": "AI-powered search and research",
-      "cssToHide": [".app-download-overlay { display: none !important; }", "[class*=\"get-app\"] { display: none !important; }"],
-      "jsOnLoad": "(function(){var count=0;var iv=setInterval(function(){try{document.querySelectorAll('button').forEach(function(b){var t=b.textContent||'';if(t.indexOf('Open in App')!==-1)b.remove();});document.querySelectorAll('button[aria-label=\"Close\"]').forEach(function(b){if((b.innerHTML||'').indexOf('pplx-icon-x')===-1)return;for(var p=b.parentElement;p&&p.tagName!=='BODY';p=p.parentElement){if(p.classList.contains('fixed')&&p.classList.contains('inset-0')){p.remove();break;}}});}catch(e){}if(++count>30)clearInterval(iv);},1000);})();"
-    },
-    {
       "id": "kimi",
       "name": "Kimi",
       "webUrl": "https://www.kimi.com/",
@@ -122,12 +103,29 @@
       "cssToHide": [".share-logo-content { display: none !important; }"]
     },
     {
+      "id": "minimax",
+      "name": "Minimax AI",
+      "webUrl": "https://chat.minimax.io/",
+      "logoUrl": "https://chat.minimax.io/favicon.ico",
+      "iconName": "chat",
+      "description": "Minimax AI's chat service",
+      "cssToHide": ["button[class*=\"mavis-popover\"] { display: none !important; }"]
+    },
+    {
       "id": "zai",
       "name": "Z.AI",
       "webUrl": "https://chat.z.ai/",
       "logoUrl": "https://chat.z.ai/favicon.ico",
       "iconName": "flash_on",
-      "description": "GLM Powerful models from Z.AI"
+      "description": "Z.ai's conversational AI"
+    },
+    {
+      "id": "meta_ai",
+      "name": "Meta AI",
+      "webUrl": "https://www.meta.ai/",
+      "logoUrl": "https://www.meta.ai/favicon.ico",
+      "iconName": "auto_awesome",
+      "description": "Meta's AI assistant powered by Llama models"
     },
     {
       "id": "mistral",
@@ -136,6 +134,16 @@
       "logoUrl": "https://chat.mistral.ai/favicon.ico",
       "iconName": "auto_awesome_outlined",
       "description": "Mistral AI's chat Assistant"
+    },
+    {
+      "id": "perplexity",
+      "name": "Perplexity",
+      "webUrl": "https://www.perplexity.ai/",
+      "logoUrl": "https://www.perplexity.ai/assets/perplex-favicon.svg",
+      "iconName": "search",
+      "description": "AI-powered search and research",
+      "cssToHide": [".app-download-overlay { display: none !important; }", "[class*=\"get-app\"] { display: none !important; }"],
+      "jsOnLoad": "(function(){var count=0;var iv=setInterval(function(){try{document.querySelectorAll('button').forEach(function(b){var t=b.textContent||'';if(t.indexOf('Open in App')!==-1)b.remove();});document.querySelectorAll('button[aria-label=\"Close\"]').forEach(function(b){if((b.innerHTML||'').indexOf('pplx-icon-x')===-1)return;for(var p=b.parentElement;p&&p.tagName!=='BODY';p=p.parentElement){if(p.classList.contains('fixed')&&p.classList.contains('inset-0')){p.remove();break;}}});}catch(e){}if(++count>30)clearInterval(iv);},1000);})();"
     },
     {
       "id": "cohere",
@@ -188,6 +196,14 @@
       "description": "Access any AI models through one interface"
     },
     {
+      "id": "publicai",
+      "name": "Public AI",
+      "webUrl": "https://publicai.co/chat",
+      "logoUrl": "https://publicai.co/favicon.ico",
+      "iconName": "public",
+      "description": "Nonprofit, open-source AI inference"
+    },
+    {
       "id": "lmarena",
       "name": "LMArena",
       "webUrl": "https://lmarena.ai/?mode=direct",
@@ -195,6 +211,14 @@
       "iconName": "psychology",
       "description": "Access All Premium Models for FREE.",
       "sendSelector": "button[class*=\"interactive-cta-active\"]"
+    },
+    {
+      "id": "allenai",
+      "name": "Allen AI",
+      "webUrl": "https://playground.allenai.org/",
+      "logoUrl": "https://playground.allenai.org/favicon.ico",
+      "iconName": "psychology",
+      "description": "AI playground for open models"
     },
     {
       "id": "lobehub",
@@ -213,28 +237,28 @@
       "description": "AI-native creative suite for video, image, and media generation"
     },
     {
-      "id": "stablediffusion",
-      "name": "StableDifffusion",
-      "webUrl": "https://stabledifffusion.com/",
-      "logoUrl": "https://stabledifffusion.com/favicon.ico",
-      "iconName": "auto_awesome",
-      "description": "Create unlimited AI images for free"
-    },
-    {
-      "id": "leonardo",
-      "name": "Leonardo AI",
-      "webUrl": "https://app.leonardo.ai/",
-      "logoUrl": "https://app.leonardo.ai/favicon.ico",
-      "iconName": "auto_awesome",
-      "description": "AI image generation platform"
-    },
-    {
       "id": "designarena",
       "name": "DesignArena AI",
       "webUrl": "https://www.designarena.ai/",
       "logoUrl": "https://www.designarena.ai/favicon.ico",
       "iconName": "palette",
       "description": "AI-powered design tools and chat"
+    },
+    {
+      "id": "google_flow",
+      "name": "Google Flow",
+      "webUrl": "https://labs.google/fx/tools/flow",
+      "logoUrl": "https://labs.google/favicon.ico",
+      "iconName": "auto_awesome",
+      "description": "Google's experimental AI flow tool"
+    },
+    {
+      "id": "xiaomi_ai",
+      "name": "Xiaomi AI Studio",
+      "webUrl": "https://aistudio.xiaomimimo.com/#/c",
+      "logoUrl": "https://aistudio.xiaomimimo.com/favicon.ico",
+      "iconName": "auto_awesome",
+      "description": "Xiaomi's AI chat studio"
     },
     {
       "id": "easemate",
@@ -261,8 +285,24 @@
       "description": "DeepAI's conversational AI"
     },
     {
+      "id": "stablediffusion",
+      "name": "StableDifffusion",
+      "webUrl": "https://stabledifffusion.com/",
+      "logoUrl": "https://stabledifffusion.com/favicon.ico",
+      "iconName": "auto_awesome",
+      "description": "Create unlimited AI images for free"
+    },
+    {
+      "id": "leonardo",
+      "name": "Leonardo AI",
+      "webUrl": "https://app.leonardo.ai/",
+      "logoUrl": "https://app.leonardo.ai/favicon.ico",
+      "iconName": "auto_awesome",
+      "description": "AI image generation platform"
+    },
+    {
       "id": "chatgptfree",
-      "name": "ChatGPT Free",
+      "name": "Unlimited AI",
       "webUrl": "https://chatgptfree.ai/chat/",
       "logoUrl": "https://chatgptfree.ai/favicon.ico",
       "iconName": "chat_bubble_outline",
@@ -275,6 +315,102 @@
       "logoUrl": "https://gamma.app/favicon.ico",
       "iconName": "slideshow",
       "description": "AI-powered presentation and document creator"
-    }  
+    },
+    {
+      "id": "venice",
+      "name": "Venice AI",
+      "webUrl": "https://venice.ai/chat/",
+      "logoUrl": "https://venice.ai/favicon.ico",
+      "iconName": "auto_awesome",
+      "description": "Private, uncensored AI chat"
+    },
+    {
+      "id": "brave_leo",
+      "name": "Brave Leo",
+      "webUrl": "https://search.brave.com/ask",
+      "logoUrl": "https://search.brave.com/favicon.ico",
+      "iconName": "search",
+      "description": "Brave's built-in AI assistant"
+    },
+    {
+      "id": "google_ai_search",
+      "name": "Google AI Search",
+      "webUrl": "https://www.google.com/search?q=&udm=50",
+      "logoUrl": "https://www.google.com/favicon.ico",
+      "iconName": "search",
+      "description": "Google AI-powered Web Search"
+    },
+    {
+      "id": "dola",
+      "name": "Dola AI",
+      "webUrl": "https://www.dola.com/chat/",
+      "logoUrl": "https://www.dola.com/favicon.ico",
+      "iconName": "calendar_today",
+      "description": "AI calendar and scheduling assistant"
+    },
+    {
+      "id": "you",
+      "name": "You.com",
+      "webUrl": "https://you.com/chat?chatMode=default",
+      "logoUrl": "https://you.com/favicon.ico",
+      "iconName": "smart_toy",
+      "description": "AI search and chat platform"
+    },
+    {
+      "id": "scispace",
+      "name": "SciSpace",
+      "webUrl": "https://scispace.com/",
+      "logoUrl": "https://scispace.com/favicon.ico",
+      "iconName": "science",
+      "description": "AI-powered research paper assistant"
+    },
+    {
+      "id": "genspark",
+      "name": "Genspark",
+      "webUrl": "https://www.genspark.ai/",
+      "logoUrl": "https://www.genspark.ai/favicon.ico",
+      "iconName": "auto_awesome",
+      "description": "AI-powered search engine"
+    },
+    {
+      "id": "character_ai",
+      "name": "Character AI",
+      "webUrl": "https://character.ai/",
+      "logoUrl": "https://character.ai/favicon.ico",
+      "iconName": "face",
+      "description": "AI chat with customizable characters"
+    },
+    {
+      "id": "conferto",
+      "name": "Confer.to",
+      "webUrl": "https://confer.to/",
+      "logoUrl": "https://confer.to/favicon.ico",
+      "iconName": "groups",
+      "description": "AI-powered meeting assistant"
+    },
+    {
+      "id": "inception",
+      "name": "Inception Labs",
+      "webUrl": "https://chat.inceptionlabs.ai/",
+      "logoUrl": "https://chat.inceptionlabs.ai/favicon.ico",
+      "iconName": "psychology",
+      "description": "Inception Labs' AI chat assistant"
+    },
+    {
+      "id": "longcat",
+      "name": "LongCat",
+      "webUrl": "https://longcat.chat/",
+      "logoUrl": "https://longcat.chat/favicon.ico",
+      "iconName": "pets",
+      "description": "Long context AI chat platform"
+    },
+    {
+      "id": "okara",
+      "name": "Okara AI",
+      "webUrl": "https://okara.ai/",
+      "logoUrl": "https://okara.ai/favicon.ico",
+      "iconName": "chat",
+      "description": "AI chat assistant"
+    }
   ]
 }
